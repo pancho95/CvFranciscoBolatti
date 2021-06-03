@@ -2,32 +2,33 @@
 
 var data = {
 	'en':{
-		'profesion':'Junior Developer',
+		'profesion':'Frontend Developer',
 		'contact':'Contact',
 		'objective':'Objective',
 		'bio':
 		'I am a person passionate about the development of web applications, wanting to pour all my knowledge into a company in order to continue training as a programmer.',
 		'skills':'Skills',
 		'education':'Academic Formation',
-		'title1':'Mobile software development',
+		'title1':'Mobile application development',
 		'time1':'July 2019 - October 2019',
 		'description-edu1':'Development of mobile applications using technologies such as: HTML5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, design UX/UI.',
 		'place2':'TERCIARY URQUIZA',
 		'title2':'Software Development Technician',
-		'time2':'April 2019 - Present',
-		'description-edu2':'2nd year student of the degree',
+		'time2':'April 2019 - December 2019',
+		'description-edu2':'8/25 approved subjects',
 		'work-exp':'Work Experience',
-		'title-work1':'FREELANCE DEVELOPER',
-		'place3':'Freelance',
-		'time3':'December 2019 - Present',
-		'des-work1':'Updating and maintenance of websites:',
-		'title-work2':'INTERN',
-		'place4':'Courts',
-		'time4':'April 2016 - April 2020',
-		'des-work2':'Attention to the public and management of files in Labor Court No. 5 of the Provincial Courts of Rosario.'
+		'title-work1':'FRONTEND DEVELOPER',
+		'place3':'Airtrack S.A',
+		'time3':'November 2020 - Present',
+		'des-work1':'- Development of configuration panel for bot WhatsApp',
+		'des-work3':'- Upload of the PideTuTaxi application to the AppStore',
+		'title-work2':'FREELANCE DEVELOPER',
+		'place4':'Independent',
+		'time4':'December 2019 - November 2020',
+		'des-work2':'Updating and maintenance of the websites'
 	},
 	'es':{
-		'profesion':'Desarrollador Junior',
+		'profesion':'Desarrollador Frontend',
 		'contact':'Contacto',
 		'objective':'Objetivo',
 		'bio':
@@ -39,17 +40,18 @@ var data = {
 		'description-edu1':'Desarrollo de aplicaciones móviles usando tecnologías como: HTML5, CSS3, Javascript, Jquery, Framework 7, Firebase, Apache Cordova, Phonegap, diseño UX/UI.',
 		'place2':'TERCIARIO URQUIZA',
 		'title2':'Técnico en desarrollo de software',
-		'time2':'Abril 2019 - Actualidad',
-		'description-edu2':'Estudiante de 2° año de la carrera',
+		'time2':'Abril 2019 - Diciembre 2019',
+		'description-edu2':'8/25 materias aprobadas',
 		'work-exp':'Experiencia Laboral',
-		'title-work1':'DESARROLLADOR FREELANCE',
-		'place3':'Autónomo',
-		'time3':'Diciembre 2019 - Actualidad',
-		'des-work1':'Actualización y mantenimiento de los sitios web:',
-		'title-work2':'PASANTE',
-		'place4':'Poder Judicial',
-		'time4':'Abril 2016 - Abril 2020',
-		'des-work2':'Atención al público y gestión de expedientes en el Juzgado Laboral N°5 de los Tribunales Provinciales de Rosario.'
+		'title-work1':'DESARROLLADOR FRONTEND',
+		'place3':'Airtrack S.A',
+		'time3':'Noviembre 2020 - Actualidad',
+		'des-work1':'- Desarrollo de panel de configuración para bot de Whatsapp',
+		'des-work3':'- Subida de la aplicación PideTuTaxi al AppStore',
+		'title-work2':'DESARROLLADOR FREELANCE',
+		'place4':'Autónomo',
+		'time4':'Diciembre 2019 - Noviembre 2020',
+		'des-work2':'Actualización y mantenimiento de los sitios web:'
 
 	}
 }

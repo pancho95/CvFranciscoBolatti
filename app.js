@@ -18,14 +18,15 @@ var data = {
 		'description-edu2':'8/25 approved subjects',
 		'work-exp':'Work Experience',
 		'title-work1':'FRONTEND DEVELOPER',
-		'place3':'Airtrack S.A',
-		'time3':'November 2020 - Present',
-		'des-work1':'- Development of configuration panel for bot WhatsApp',
-		'des-work3':'- Upload of the PideTuTaxi application to the AppStore',
-		'title-work2':'FREELANCE DEVELOPER',
-		'place4':'Independent',
-		'time4':'December 2019 - November 2020',
-		'des-work2':'Updating and maintenance of the websites'
+		'place3':'Empretienda SAS',
+		'time3':'June 2021 - Present',
+		'des-work1':'- Template development and layout',
+		'des-work2':'- Development of new functionalities for the store system',
+		'des-work3':'- Development of configuration panel for bot WhatsApp',
+		'des-work4':'- Upload of the PideTuTaxi application to the AppStore',
+		'title-work2':'FRONTEND DEVELOPER',
+		'place4':'Airtrack S.A',
+		'time4':'November 2020 - June 2021'
 	},
 	'es':{
 		'profesion':'Desarrollador Frontend',
@@ -44,27 +45,31 @@ var data = {
 		'description-edu2':'8/25 materias aprobadas',
 		'work-exp':'Experiencia Laboral',
 		'title-work1':'DESARROLLADOR FRONTEND',
-		'place3':'Airtrack S.A',
-		'time3':'Noviembre 2020 - Actualidad',
-		'des-work1':'- Desarrollo de panel de configuración para bot de Whatsapp',
-		'des-work3':'- Subida de la aplicación PideTuTaxi al AppStore',
-		'title-work2':'DESARROLLADOR FREELANCE',
-		'place4':'Autónomo',
-		'time4':'Diciembre 2019 - Noviembre 2020',
-		'des-work2':'Actualización y mantenimiento de los sitios web:'
-
+		'place3':'Empretienda SAS',
+		'time3':'Junio 2021 - Actualidad',
+		'des-work1':'- Maquetado de plantillas para el sistema de tiendas',
+		'des-work2':'- Desarrollo de nuevas funcionalidades para el sistema de tiendas',
+		'des-work3':'- Desarrollo de panel de configuración para bot de Whatsapp',
+		'des-work4':'- Subida de la aplicación PideTuTaxi al AppStore',
+		'title-work2':'DESARROLLADOR FRONTEND',
+		'place4':'Airtrack S.A',
+		'time4':'Noviembre 2020 - Junio 2021'
 	}
 }
 
 
 
 //function to change language
-function language(){
-	$(function(){
-		$('.translate').click(function(){
+function language()
+{
+	$(function()
+	{
+		$('.translate').click(function()
+		{
 			var lang = $(this).attr('id');
 
-			$('.lang').each(function(index, element){
+			$('.lang').each(function(index, element)
+			{
 				$(this).text(data[lang][$(this).attr('key')]);
 			});
 		});
@@ -75,7 +80,8 @@ function language(){
 
 // function to change to dark mode
 
-	function darkmode(){
+	function darkmode()
+	{
 		var body = document.body;
 
 		var header = document.querySelector('.header');
@@ -84,8 +90,8 @@ function language(){
 
 		var edu = document.querySelector('.border-edu');
 
-		var web1 = document.querySelector('.web1');
-		var web2 = document.querySelector('.web2');
+		// var web1 = document.querySelector('.web1');
+		// var web2 = document.querySelector('.web2');
 		
 		// body and header color change
 		body.classList.toggle('bg-dark');
@@ -100,25 +106,27 @@ function language(){
 		edu.classList.toggle('border-edu1');
 
 		// change color links
-		if (web1.classList.contains('text-dark') && web2.classList.contains('text-dark') ) {
+		// if (web1.classList.contains('text-dark') && web2.classList.contains('text-dark') ) {
 
-			web1.classList.remove('text-dark')
-			web1.classList.add('text-white')
+		// 	web1.classList.remove('text-dark')
+		// 	web1.classList.add('text-white')
 
-			web2.classList.remove('text-dark')
-			web2.classList.add('text-white')
-
-
-		  } else {
-
-			web1.classList.remove('text-white')
-			web1.classList.add('text-dark')
-
-			web2.classList.remove('text-white')
-			web2.classList.add('text-dark')
+		// 	web2.classList.remove('text-dark')
+		// 	web2.classList.add('text-white')
 
 
-		  }
+		// } 
+		// else
+		// {
+
+		// 	web1.classList.remove('text-white')
+		// 	web1.classList.add('text-dark')
+
+		// 	web2.classList.remove('text-white')
+		// 	web2.classList.add('text-dark')
+
+
+		// }
 		
 
 		

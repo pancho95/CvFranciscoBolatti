@@ -115,14 +115,9 @@
 }
 
 
-.comit{
+.comit, .terciary{
 	padding-top: 20px;
 }
-
-.terciary{
-	padding-top: 20px;
-}
-
 
 /*Work section*/
 
@@ -154,18 +149,11 @@
 	font-weight: bolder;
 }
 
-.courts{
+.courts,.adm{
 	padding-top: 20px;
 }
 
-
-.adm{
-	padding-top: 20px;
-}
-
-
-
-/*Contact */
+/* Contact */
 
 .svgwhatsapp{
 	fill:#25d366;
@@ -182,24 +170,15 @@
 }
 
 
-.whatsapp{
-	background-color: #fff;
-}
-
-
-.linkedin{
-	background-color: #fff;
-}
-
-
-.github{
+.whatsapp,.linkedin,.github{
 	background-color: #fff;
 }
 
 
 /*Contact hover */
 
-.whatsapp:hover,.github:hover,.linkedin:hover,.mail:hover{
+.whatsapp:hover,.github:hover,.linkedin:hover,.mail:hover
+{
 	height: 70px;
 	width: 70px;
 	transition: 0.3s;
